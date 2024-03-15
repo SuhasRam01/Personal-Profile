@@ -1,0 +1,92 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #30CFD0;
+}
+
+/* Home section */
+#home {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(192, 219, 255, 0.75), 0 0 8px rgba(65, 120, 255, 0.24);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* About section */
+#about {
+    padding: 3rem 0;
+}
+
+/* Resume section */
+#resume {
+    padding: 3rem 0;
+}
+
+/* Contact section */
+#contact {
+    padding: 3rem 0;
+}
+
+/* Button styles */
+.btn {
+    background-color: #30CFD0;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c43ad6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+}
+
+/* Add any additional styles as needed */
+
+/* Responsive adjustments (optional) */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
